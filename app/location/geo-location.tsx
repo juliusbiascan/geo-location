@@ -37,7 +37,7 @@ export default function GeoLocationPage() {
         setLoading(false);
       })
       .catch((err) => {
-        setError(err.message);
+        setError("Failed to fetch geo-location because I am broke to buy SSL (HTTPS) xoxad :c, but you can clone this and use it locally.");
         setLoading(false);
       });
   }, []);
