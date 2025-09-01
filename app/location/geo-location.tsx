@@ -32,7 +32,7 @@ export default function GeoLocationPage() {
         if (json.status === "success") {
           setData(json);
         } else {
-          setError(json.message || "Failed to fetch geo-location.");
+          setError(json.message || "Failed to fetch geo-location because I am broke to buy SSL (HTTPS) xoxad :c, but you can clone this and use it locally.");
         }
         setLoading(false);
       })
